@@ -1,0 +1,135 @@
+* {
+    font-family:sans-serif;
+    box-sizing: border-box;
+    
+}
+.body{
+    margin: 0 auto;
+}
+.box0{
+    background: rgb(7, 67, 47);
+}
+.box{
+    display: flex;
+   
+    
+    width: 1000px;
+    margin: 0 auto;
+}
+.box1{
+    
+    width: 30%;
+    height: 1100px;
+    background: #3f6592;
+    color: #ffffff;   
+            
+}
+.box2{
+    width: 70%;
+    height: 1100px;
+    background: #ffffff;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.foto{
+    text-align: center;
+}
+.Danue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    font-family:arial,sans-serif;  
+    font-size: 17px;
+    padding-left:30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    
+
+    
+}
+.img{
+    margin: 1   0px;
+}
+.line{
+    width: 620px;
+    background: #a8a3a3;
+    padding-left: 300px;
+    padding-top: 1px;
+    margin-top: 5px;
+}
+.oput{
+    
+    border: 1px  #000 solid;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px ;
+    text-align: center;
+
+}
+.fafa {
+    padding-top: 10px;  
+    
+}
+.stasz{
+    display: flex;
+    align-items: center;
+    padding-left: -30px;
+}
+.rabota{
+    padding-left: 20px;
+}
+.data{
+    display: flex;
+    align-items: center;
+}
+.sankt{
+    padding-left: 30px;
+    color: #3f6592;
+}
+.God_mes {
+    display: flex;
+    font-family:sans-serif;
+    padding-top: 10px;
+}
+.spec {
+    margin: 0 auto;
+}
+.knopka {
+    margin-top: 80px;
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #c93c3c; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.knopka:hover {
+    transform: scale(1.2) translateX(1px) ;
+
+}
+.modul {
+    display: none;/*Закрываем от вида всплывающее  окно.*/
+    position: fixed; /*Фиксируем все позиции*/
+    z-index: 1000; /*Чтобы блок окна был на поверхности под ним блока*/ 
+    width: 100%; /*Ширину делаем на всеь блок*/ 
+    height: 100%; /*Высоту делаем на всеь блок*/
+    overflow:auto; /*для того чтобы если элемент или текст не влезают,скролл их автоматически разместит */
+    background: rgb(0,0,0,0.3);
+    left: 640px;
+    top: 0px;
+}   
+.sertifikat{
+ margin-left: 250px;
+ background: #c93c3c;
+ color: #ffffff;
+ font-size:15px;
+ font-family:arial,sans-serif;  
+ border-radius: 3px solid rgb(61, 222, 2);
+    transition: 0.5s;
+}
+
+.sertifikat:hover {
+    transform: scale(1.2) translateX(1px) ;
+}
